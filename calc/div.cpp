@@ -3,7 +3,7 @@
 int div_(int x, int y)
 {
 	int count = 0;
-	while (x > y) {
+	while (x >= y) {
 		x = sub(x, y);
 		count++;
 	}
